@@ -8,6 +8,7 @@ app = FastAPI()
 origins = [
     "http://localhost:1234",
     "http://localhost:8000",
+    "https://65d2fce7e2099c0008c0e5d1--charming-nasturtium-b95241.netlify.app"
 ]
 
 app.add_middleware(
